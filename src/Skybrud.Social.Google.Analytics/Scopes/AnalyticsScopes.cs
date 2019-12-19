@@ -8,8 +8,6 @@ namespace Skybrud.Social.Google.Analytics.Scopes {
     /// </summary>
     [GoogleScopes("Analytics")]
     public static class AnalyticsScopes {
-        
-        #region Constants (Analytics-related scopes)
 
         /// <summary>
         /// Read-only access to the Analytics API.
@@ -60,8 +58,6 @@ namespace Skybrud.Social.Google.Analytics.Scopes {
         /// Gets an array of all Analytics scopes.
         /// </summary>
         public static readonly GoogleScope[] All = { Readonly, Write, Edit, ManageUsers, ManageUsersReadonly };
-
-        #endregion
 
     }
 

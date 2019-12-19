@@ -57,7 +57,7 @@ namespace Skybrud.Social.Google.Analytics.Endpoints {
         }
 
         /// <summary>
-        /// Gets a list of web properties based on the specified <code>options</code>.
+        /// Gets a list of web properties based on the specified <paramref name="options"/>.
         /// </summary>
         /// <param name="options">The options for the call to the API.</param>
         public AnalyticsGetWebPropertiesResponse GetWebProperties(AnalyticsGetWebPropertiesOptions options) {
@@ -73,7 +73,7 @@ namespace Skybrud.Social.Google.Analytics.Endpoints {
         }
 
         /// <summary>
-        /// Gets a list of profiles based on the specified <code>options</code>.
+        /// Gets a list of profiles based on the specified <paramref name="options"/>.
         /// </summary>
         /// <param name="options">The options for the call to the API.</param>
         public AnalyticsGetProfilesResponse GetProfiles(AnalyticsGetProfilesOptions options) {
